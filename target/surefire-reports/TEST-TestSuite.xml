@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.407" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\bidve.amol\eclipse-workspace\RestAssuredBDDFramework\target\test-classes;C:\Users\bidve.amol\eclipse-workspace\RestAssuredBDDFramework\target\classes;C:\Users\bidve.amol\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\bidve.amol\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\bidve.amol\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\bidve.amol\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bidve.amol\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bidve.amol\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bidve.amol\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\bidve.amol\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\bidve.amol\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\bidve.amol\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\bidve.amol\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\bidve.amol\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\bidve.amol\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\bidve.amol\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\bidve.amol\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\bidve.amol\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\bidve.amol\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\bidve.amol\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\bidve.amol\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\bidve.amol\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\bidve.amol\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\bidve.amol\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\bidve.amol\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\bidve.amol\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\bidve.amol\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\bidve.amol\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bidve.amol\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\bidve.amol\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\bidve.amol\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\bidve.amol\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.27.0\allure-cucumber7-jvm-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-rest-assured\2.27.0\allure-rest-assured-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-attachments\2.27.0\allure-attachments-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\bidve.amol\AppData\Local\Temp\surefire8902383113865542352\surefirebooter-20240715170911052_3.jar C:\Users\bidve.amol\AppData\Local\Temp\surefire8902383113865542352 2024-07-15T17-09-10_932-jvmRun1 surefire-20240715170911052_1tmp surefire_0-20240715170911052_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bidve.amol\eclipse-workspace\RestAssuredBDDFramework\target\test-classes;C:\Users\bidve.amol\eclipse-workspace\RestAssuredBDDFramework\target\classes;C:\Users\bidve.amol\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\bidve.amol\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\bidve.amol\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\bidve.amol\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bidve.amol\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bidve.amol\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bidve.amol\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\bidve.amol\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\bidve.amol\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\bidve.amol\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\bidve.amol\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\bidve.amol\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\bidve.amol\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\bidve.amol\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\bidve.amol\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\bidve.amol\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\bidve.amol\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\bidve.amol\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\bidve.amol\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\bidve.amol\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\bidve.amol\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\bidve.amol\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\bidve.amol\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\bidve.amol\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\bidve.amol\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\bidve.amol\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bidve.amol\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\bidve.amol\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\bidve.amol\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\bidve.amol\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.27.0\allure-cucumber7-jvm-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-rest-assured\2.27.0\allure-rest-assured-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\io\qameta\allure\allure-attachments\2.27.0\allure-attachments-2.27.0.jar;C:\Users\bidve.amol\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bidve.amol"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bidve.amol\eclipse-workspace\RestAssuredBDDFramework"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\bidve.amol\AppData\Local\Temp\surefire8902383113865542352\surefirebooter-20240715170911052_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="user.name" value="bidve.amol"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\bidve.amol\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BIDVE~1.AMO\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="C:\Users\bidve.amol\eclipse-workspace\RestAssuredBDDFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\apache-maven-3.9.3\bin;C:\apache-jmeter-5.5\bin;C:\Users\bidve.amol\Desktop\apache-jmeter-5.5\apache-jmeter-5.5\bin;C:\Users\bidve.amol\AppData\Local\Android\Sdk\platform-tools;C:\Users\bidve.amol\AppData\Local\Android\Sdk\build-tools;C:\Users\bidve.amol\AppData\Local\Android\Sdk\platforms;C:\Users\bidve.amol\AppData\Roaming;C:\Program Files\Java\jdk-18.0.2\bin;C:\Program Files\Java\jdk-18.0.2\lib;C:\Users\bidve.amol\AppData\Local\Microsoft\WindowsApps;C:\Users\bidve.amol\AppData\Roaming\npm;C:\Users\bidve.amol\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bidve.amol\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify if create playlist functionality is working&quot;, &quot;Validate Playlist API&quot;](1)" classname="runner.PlayListRunner" time="2.581">
+    <system-out><![CDATA[
+Scenario: Verify if create playlist functionality is working &amp#27;[90m# src/test/resources/spotifyfeature/Playlist.feature:2&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcreate playlist API payload&amp#27;[0m                          &amp#27;[90m# steps.PlaylistSteps.create_playlist_api_payload()&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/31347cap2qzknrb7ecglwtie6i6e/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQB5AKcPWbIA7Uw0JzXKd7nLaCepYqhS8Sv2l5CqtDaXn6G8GdICmBLakQQJ0p7Sue6bz1Qsep8LJzRtHYCBlt1QPQwJgP4mO1QeHcmRMZ1n7PAU-8qex72_CipF0vTw2OYHPDVjlhCKhvgl_Qtk4WAbgfPzu_BMwOiCcyL1zk4d4LvA-RUTJNBGy_umAv--rbp8jhWgzyTQ3xaYSUv8wSYTHmcBDbUAPranRbvlLytIZFPl0pOjNerrHm2P-oAmL92AeHa-a1sSvyhm
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Creating using spotify id222",
+    "name": " Create 9 framework builder with rest assured23",
+    "public": false
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser calls with  Post http request&amp#27;[0m                    &amp#27;[90m# steps.PlaylistSteps.user_calls_with_Post_http_request()&amp#27;[0m
+ Create 9 framework builder with rest assured23
+playlistid=20ixs9BWV6u6yWCKqpNNrE
+HTTP/1.1 201 Created
+content-type: application/json; charset=utf-8
+cache-control: private, max-age=0
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 15 Jul 2024 11:39:14 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Creating using spotify id222",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/20ixs9BWV6u6yWCKqpNNrE"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/20ixs9BWV6u6yWCKqpNNrE",
+    "id": "20ixs9BWV6u6yWCKqpNNrE",
+    "images": [
+        
+    ],
+    "primary_color": null,
+    "name": " Create 9 framework builder with rest assured23",
+    "type": "playlist",
+    "uri": "spotify:playlist:20ixs9BWV6u6yWCKqpNNrE",
+    "owner": {
+        "href": "https://api.spotify.com/v1/users/31347cap2qzknrb7ecglwtie6i6e",
+        "id": "31347cap2qzknrb7ecglwtie6i6e",
+        "type": "user",
+        "uri": "spotify:user:31347cap2qzknrb7ecglwtie6i6e",
+        "display_name": null,
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31347cap2qzknrb7ecglwtie6i6e"
+        }
+    },
+    "public": false,
+    "snapshot_id": "AAAASo56R2rf0vGO+T0fEDtzfJ3g/xdz",
+    "tracks": {
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "href": "https://api.spotify.com/v1/playlists/20ixs9BWV6u6yWCKqpNNrE/tracks",
+        "total": 0,
+        "items": [
+            
+        ]
+    }
+}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAPI call executed with status code &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                &amp#27;[90m# steps.PlaylistSteps.api_call_executed_with_status_code(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify if fetch playlist functionality is working&quot;, &quot;Validate Playlist API&quot;](2)" classname="runner.PlayListRunner" time="0.5">
+    <system-out><![CDATA[
+Scenario: Verify if fetch playlist functionality is working &amp#27;[90m# src/test/resources/spotifyfeature/Playlist.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mGet a playlis payload&amp#27;[0m                               &amp#27;[90m# steps.PlaylistSteps.get_a_playlis_payload()&amp#27;[0m
+playlistid in get=20ixs9BWV6u6yWCKqpNNrE
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/20ixs9BWV6u6yWCKqpNNrE
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	pid=20ixs9BWV6u6yWCKqpNNrE
+Headers:		Authorization=Bearer BQArW7D0z8jFNB-9I7KnyXrxi9DEdUiqedKeCYDaM22llw4t3BtaU4_P-RaIRxMzlVMckxIrAeqYVw4NIipPTVkgS8cdn8Vdqtfelh59qNx45vNF0HtJ_38wNcNywUekkC_OgOomX4ns0MjAIWrgJp9RthGN_d3OPM2643e6lakiJkL6TgX08w0GNz6rCOMOHd_x1ORmBYZWManp7sZ-uKZVSosBdsEv8WlWrV2jpSbAUmk3hlGeT_Nf3Tc4CRiZKyrmTm3g5NepOTI_
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-ImIxYzg0MDRmZGE2Mzk0Y2Y4OTdiNDk1ZjZhYzQwYzhlIg=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 15 Jul 2024 11:39:15 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "Creating using spotify id222",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/20ixs9BWV6u6yWCKqpNNrE"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/20ixs9BWV6u6yWCKqpNNrE",
+    "id": "20ixs9BWV6u6yWCKqpNNrE",
+    "images": null,
+    "name": " Create 9 framework builder with rest assured23",
+    "owner": {
+        "display_name": "Bkamol",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31347cap2qzknrb7ecglwtie6i6e"
+        },
+        "href": "https://api.spotify.com/v1/users/31347cap2qzknrb7ecglwtie6i6e",
+        "id": "31347cap2qzknrb7ecglwtie6i6e",
+        "type": "user",
+        "uri": "spotify:user:31347cap2qzknrb7ecglwtie6i6e"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAAQ0PFhSmKW5UZvQHXkNCkyWRmw98",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/20ixs9BWV6u6yWCKqpNNrE/tracks?offset=0&limit=0",
+        "items": [
+            
+        ],
+        "limit": 0,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:20ixs9BWV6u6yWCKqpNNrE"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser calls with get http request&amp#27;[0m                     &amp#27;[90m# steps.PlaylistSteps.user_calls_with_get_http_request()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAPI call executed with the status code &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m           &amp#27;[90m# steps.PlaylistSteps.api_call_executed_with_the_status_code(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify if update playlist functionality is working&quot;, &quot;Validate Playlist API&quot;](3)" classname="runner.PlayListRunner" time="0.556">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.PlaylistSteps.api_call_executed_should_with_status_code(PlaylistSteps.java:109)
+	at ✽.API call executed should with status code 400(file:///C:/Users/bidve.amol/eclipse-workspace/RestAssuredBDDFramework/src/test/resources/spotifyfeature/Playlist.feature:15)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Verify if update playlist functionality is working &amp#27;[90m# src/test/resources/spotifyfeature/Playlist.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mupdate a playlis API payload&amp#27;[0m                         &amp#27;[90m# steps.PlaylistSteps.update_a_playlis_api_payload()&amp#27;[0m
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/20ixs9BWV6u6yWCKqpNNrE
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQB4tUQsGDa6n_rVdmtg8_ugSAtxNIG3H08TUICDP51Kc34Zz1OyV5y3gL3SBks7Wt9O4HckqCIkWQYnV9-kzmXVl4fk8ZTqDkZd1huvdZev50f4uCsiJD3nm18QfysAX6_ZlF7R6vfiVjwfo_CZS6A0hNYKSeJjT5urv8MLqvTgj-jVsVTylXMTYMAGoIt6sGXhCNTkWslyGX-VOJilMLGJjAXjVsJ4spQvdUCit4XB0h9nHRdU52sgIqS4P5cf693Aw1jtdpTW3JyT
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Creating using spotify id222",
+    "name": "framework update with rest assured",
+    "public": false
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser calls with put http request&amp#27;[0m                      &amp#27;[90m# steps.PlaylistSteps.user_calls_with_put_http_request()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mAPI call executed should with status code &amp#27;[0m&amp#27;[31m&amp#27;[1m400&amp#27;[0m         &amp#27;[90m# steps.PlaylistSteps.api_call_executed_should_with_status_code(java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at steps.PlaylistSteps.api_call_executed_should_with_status_code(PlaylistSteps.java:109)
+	at ✽.API call executed should with status code 400(file:///C:/Users/bidve.amol/eclipse-workspace/RestAssuredBDDFramework/src/test/resources/spotifyfeature/Playlist.feature:15)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
